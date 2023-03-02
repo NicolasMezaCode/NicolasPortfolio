@@ -12,10 +12,11 @@
     letter-spacing:1.2px;
 }
 .logo{
-    min-width: 201px;
+
     font-size: 1.5rem;
     font-weight: 700;
     letter-spacing: 2px;
+    margin-right: 40px;
     font-size: 22px;
     color: #fff;
     opacity: .8;
@@ -46,14 +47,29 @@
     justify-content: space-between;
     align-items: center;
 }
+.btnRef{
+    position: relative;
+display: block;
+padding: 12px;
+color: #fff;
+opacity: .8;
+transition: opacity .35s ease-in-out;
+}
 @media only screen and (max-width: 700px) {
     .contactcontainer{
         display: none;
     }
     .logo{
         height: auto;
-        font-size: 18px;
+        font-size: 15px;
         min-width: 152px;
+        margin-right: 10px;
+    }
+    .hide{
+        display: none;
+    }
+    .btnRef{
+        padding: 8px;
     }
     
 
@@ -72,14 +88,7 @@
     opacity: 1;
 }
 
-.btnRef{
-    position: relative;
-display: block;
-padding: 12px;
-color: #fff;
-opacity: .8;
-transition: opacity .35s ease-in-out;
-}
+
 .btnRef:hover {
     text-decoration: none;
     opacity: 1;
