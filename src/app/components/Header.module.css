@@ -12,7 +12,17 @@
     letter-spacing:1.2px;
 }
 .logo{
-    min-width: 201px
+    min-width: 201px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 22px;
+    color: #fff;
+    opacity: .8;
+    transition: opacity .35s ease-in-out
+}
+.logo:hover{
+    opacity: 1;
 }
 .logoContainer{
     display: flex;
@@ -26,9 +36,9 @@
 }
 .listcontainer{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 1rem 1.8rem;
+
 }
 
 .contactcontainer{
@@ -40,17 +50,10 @@
     .contactcontainer{
         display: none;
     }
-    .listcontainer{
-        padding: 0.8rem;
-    }
     .logo{
         height: auto;
+        font-size: 18px;
         min-width: 152px;
-    }
-    .font700{
-        font-weight:300;
-        font-size: 15px;
-        letter-spacing:1px;
     }
     
 
@@ -60,5 +63,41 @@
 }
 
 .font300{
-    font-weight: 300;
+    font-weight: 500;
+    font-size: 13px;
+    opacity: .8;
+    transition: opacity .35s ease-in-out
+}
+.font300:hover{
+    opacity: 1;
+}
+
+.btnRef{
+    position: relative;
+display: block;
+padding: 12px;
+color: #fff;
+opacity: .8;
+transition: opacity .35s ease-in-out;
+}
+.btnRef:hover {
+    text-decoration: none;
+    opacity: 1;
+}
+
+.btnRef:before {
+    content: "";
+    position: absolute;
+    right: 100%;
+    bottom: 8px;
+    left: 12px;
+    height: 1px;
+    background: #fff;
+    opacity: 0.25;
+    transition: all 0.35s ease-in-out;
+}
+
+.btnRef:hover:before {
+    right: 12px;
+    opacity: 0.5;
 }
