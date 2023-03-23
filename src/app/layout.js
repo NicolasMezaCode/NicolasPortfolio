@@ -4,7 +4,11 @@ import Header from './components/Header'
 export default function RootLayout ({ children }) {
   return (
     <html>
-      <head />
+      <head>
+        <title>Nicolas Meza</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Nicolas Meza's personal website" />
+      </head>
       <body>
         <Header />
         {children}
