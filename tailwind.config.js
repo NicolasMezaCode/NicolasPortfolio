@@ -8,6 +8,7 @@ export default {
     extend: {
       fontFamily: {
         'inter': ['Inter', 'sans-serif'],
+        'hand':['Just Another Hand','cursive']
       },
       colors: {
         'primary':'#0A0B0C',
@@ -21,7 +22,10 @@ export default {
         'hero-pattern': "url('./src/assets/composition-book-cover-black-and-white-background-abstract-wallpaper-texture-or-pattern-grain-or-noise-marble-pattern-fabric-and-surface-wrapping-paper-flat-de.jpg')",
         'secondary-pattern': "url('./src/assets/output-onlinepngtools.png')",
         'tertiary-pattern': "url('./src/assets/2.png')",
-      }
+      },
+      letterSpacing:{
+        'thewidest':'0.3rem'
+      },
     },
 
   },
