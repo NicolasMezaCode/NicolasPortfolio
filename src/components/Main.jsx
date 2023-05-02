@@ -11,7 +11,7 @@ export default function Main() {
           <div className='bg-white opacity-90  mt-6 mb-9 rounded-lg sketchy'>
                 <h3 className='font-hand font-bold text-4xl text-black p-3'>GAMESS</h3>
           </div>
-          <figure className='w-fit  bg-black p-8 mb-10 rounded-lg container sketchy'><img className=' h-auto w-80 sm:w-[600px] lg:w-[800px]' src={gamess} alt="" /></figure>
+          <figure className='w-fit bg-white p-8 mb-10 rounded-lg container sketchy'><img className=' h-auto w-80 sm:w-[600px] lg:w-[800px]' src={gamess} alt="" /></figure>
         </section>      
     </div>
   )
