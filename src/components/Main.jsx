@@ -14,7 +14,7 @@ export default function Main() {
           </div>
           <figure className='w-fit mx-5 mb-10 rounded-lg container sketchy'><img className=' h-auto w-80 sm:w-[600px] lg:w-[800px]' src={gamess} alt="screenshot of the project" /></figure>
           <div className='flex justify-center  items-center max-w-[450px] max-h-[584px] '>
-            <h4 className='p-5 font-semibold sketchy bg-yellow-300 text-center '>Is a Fullstack team project using React that shows where you can find and look all your favorite games using the IGDB database and firebase for the authentication and storing the user data.</h4>
+            <h4 className='p-5 font-semibold sketchy bg-yellow-300 text-center mb-10'>Is a Fullstack team project using React that shows where you can find and look all your favorite games using the IGDB database and firebase for the authentication and storing the user data.</h4>
           </div>
         </section>      
     </div>
