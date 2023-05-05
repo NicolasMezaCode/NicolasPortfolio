@@ -1,5 +1,6 @@
 import React from 'react'
 import gamess from '../assets/Gamess.png'
+import postit from '../assets/post-it-yellow.png'
 import './main.css'
 export default function Main() {
   return (
@@ -9,11 +10,11 @@ export default function Main() {
         </div>
         <section className='w-fit flex flex-col justify-center items-center'>
           <div className='bg-white sm:mt-9  mt-3 mb-6 sm:mb-9 rounded-lg sketchy'>
-                <h3 className='font-hand font-bold text-4xl sm:text-5xl px-4 py-2  text-black sm:px-6 sm:py-3'>GAMESS</h3>
+                <h3 className='font-hand font-bold text-3xl sm:text-5xl px-4 py-2  text-black sm:px-6 sm:py-3'>GAMESS</h3>
           </div>
           <figure className='w-fit mx-5 mb-10 rounded-lg container sketchy'><img className=' h-auto w-80 sm:w-[600px] lg:w-[800px]' src={gamess} alt="screenshot of the project" /></figure>
-          <div className='bg-postit'>
-            <h4></h4>
+          <div className='flex justify-center  items-center max-w-[450px] max-h-[584px] '>
+            <h4 className='p-5 font-semibold sketchy bg-yellow-300 text-center '>Is a Fullstack team project using React that shows where you can find and look all your favorite games using the IGDB database and firebase for the authentication and storing the user data.</h4>
           </div>
         </section>      
     </div>

@@ -1,9 +1,7 @@
 .sketchy{
     display: inline-block;
     border: 3px solid #333;
-    font-size: 2.5rem;
     border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
-    text-transform: uppercase;
     letter-spacing: 0.3ch;
     background: #fff;
     position: relative;
