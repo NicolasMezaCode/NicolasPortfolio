@@ -1,10 +1,9 @@
 import React from 'react'
 import gamess from '../assets/Gamess.png'
-import postit from '../assets/post-it-yellow.png'
 import './main.css'
 export default function Main() {
   return (
-    <div className='bg-tertiary-pattern md:bg-secondary-pattern flex justify-center flex-col  items-center'>
+    <div className="bg-[url('./assets/2.png')] md:bg-[url('./assets/output-onlinepngtools.png')] flex justify-center flex-col  items-center">
         <div className='bg-black opacity-90 rounded-lg mt-6'>
             <h3 className='font-bold text-2xl text-white p-3 tracking-wide'>Projects</h3>
         </div>
