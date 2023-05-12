@@ -12,7 +12,9 @@ export default {
       },
       colors: {
         'primary':'#0A0B0C',
-        'letter':'#fff'
+        'letter':'#fff',
+        'yellowPostit':'#FCCE14',
+        'bluePostit':'#77E5D7',
       },
       transitionProperty: {
         colorings: 'opacity 0.85s ease-in-out',
