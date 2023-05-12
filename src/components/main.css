@@ -19,7 +19,9 @@
     transform: translate3d(-50%, -50%, 0) scale(1.015) rotate(0.5deg);
     border-radius: 1% 1% 2% 4% / 2% 6% 5% 4%;
 }
-.container {
+
+@media only screen and (min-width: 768px){
+  .container {
     max-width: 800px;
     font-size: 17px;
     line-height: 28px;
@@ -36,3 +38,5 @@
   .container:hover .border {
     transform: translateY(4px) rotate(-5deg);
   }
+}
+
