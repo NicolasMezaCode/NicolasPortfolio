@@ -29,6 +29,7 @@ export default {
       letterSpacing:{
         'thewidest':'0.3rem'
       },
+      
     },
 
   },
