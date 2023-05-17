@@ -16,7 +16,6 @@ export default function About() {
 
         <figure className=' mb-9 mt-3 '>
             <img className='sketchyPhoto h-auto w-80 relative' src={photo} alt="" />
-
         </figure>
     </>
   )
