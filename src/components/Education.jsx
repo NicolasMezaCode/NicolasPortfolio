@@ -2,9 +2,9 @@ import React from 'react'
 
 export default function Education() {
   return (
-    <div className="bg-white rounded-lg mt-6 mb-6 p-4 sketchy max-w-xs sm:max-w-md md:max-w-xl hover:bg-greenPostit transition duration-500 hover:scale-110 transition-all duration-300 ease-in-out">
-      <h3 className="font-bold text-center text-2xl text-black p-3 tracking-wide">Education</h3>
-      <ul className="list-disc text-lg pl-6 text-black">
+    <div className="bg-white rounded-lg mt-6 mb-6 p-4 sketchy max-w-xs sm:max-w-md md:max-w-xl md:hover:bg-greenPostit transition duration-500 md:hover:scale-110 transition-all duration-300 ease-in-out">
+      <h3 className="font-bold text-center text-lg md:text-2xl text-black p-3 tracking-wide">Education</h3>
+      <ul className="list-disc text-sm sm:text-lg pl-6 text-black">
         <li className="mb-2">
           <strong>Cornerstone International Community College of Canada (CICCC)</strong> - 2022-Present<br />
           <span>Diploma in Web Development</span>
