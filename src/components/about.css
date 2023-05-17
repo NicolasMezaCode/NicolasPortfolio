@@ -16,3 +16,38 @@
     position: absolute;
     border-radius:40% ;
 }
+
+.my-image-container {
+    overflow: hidden;
+  }
+  
+  .shine-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(
+      to right,
+      transparent,
+      rgba(255, 255, 255, 0.5),
+      transparent
+    );
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    pointer-events: none;
+  }
+  
+  .my-image-container:hover .shine-overlay {
+    opacity: 1;
+    animation: slideShine 1s linear;
+  }
+  
+  @keyframes slideShine {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }

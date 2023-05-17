@@ -15,6 +15,8 @@ export default {
         'letter':'#fff',
         'yellowPostit':'#FCCE14',
         'bluePostit':'#77E5D7',
+        'redPostit':'#fad5d4',
+        'greenPostit':'#C9F0C3',
       },
       transitionProperty: {
         colorings: 'opacity 0.85s ease-in-out',
@@ -28,6 +30,10 @@ export default {
       },
       letterSpacing:{
         'thewidest':'0.3rem'
+      },
+      //change the scale to 115% when hover
+      scale: {
+        '110': '1.10',
       },
       
     },

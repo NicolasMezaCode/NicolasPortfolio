@@ -2,6 +2,7 @@ import React from 'react'
 import Projects from './Projects'
 import './main.css'
 import About from './About'
+import Education from './Education'
 
 
 
@@ -14,6 +15,7 @@ export default function Main() {
         <section className='w-fit flex flex-col justify-center items-center'>
         <Projects/>
         <About/>
+        <Education/>
         </section>      
     </div>
   )
