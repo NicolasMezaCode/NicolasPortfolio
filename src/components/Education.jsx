@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Education() {
   return (
-    <div className="bg-white rounded-lg mt-6 mb-6 p-4 sketchy max-w-xs sm:max-w-md md:max-w-xl md:hover:bg-greenPostit transition duration-500 md:hover:scale-110 transition-all duration-300 ease-in-out">
+    <div className="bg-white rounded-lg mt-6 mb-10 p-4 sketchy max-w-xs sm:max-w-md md:max-w-xl md:hover:bg-greenPostit transition duration-500 md:hover:scale-110 transition-all duration-300 ease-in-out">
       <h3 className="font-bold text-center text-lg md:text-2xl text-black p-3 tracking-wide">Education</h3>
       <ul className="list-disc text-sm sm:text-lg pl-6 text-black">
         <li className="mb-2">
