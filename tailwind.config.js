@@ -13,6 +13,7 @@ export default {
       colors: {
         'primary':'#0A0B0C',
         'letter':'#fff',
+        'background':'#1A1C20',
         'yellowPostit':'#FCCE14',
         'bluePostit':'#77E5D7',
         'redPostit':'#fad5d4',
