@@ -10,7 +10,7 @@ import pomodoro from '../assets/pomotimer.png'
 export default function Projects() {
   return (
     <>
-              <div className='bg-white sm:mt-9  mt-3 mb-9 sm:mb-9 rounded-lg sketchy'>
+          <div id='projects' className='bg-white sm:mt-9  mt-3 mb-9 sm:mb-9 rounded-lg sketchy'>
                 <h3 className=' font-hand font-bold text-3xl sm:text-5xl px-4 py-2  text-black sm:px-6 sm:py-3'>GAMESS</h3>
           </div>
                 <a href="https://gamess.vercel.app/">

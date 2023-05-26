@@ -13,6 +13,7 @@ export default {
       colors: {
         'primary':'#0A0B0C',
         'letter':'#fff',
+        'letters':'#ffffffbf',
         'background':'#1A1C20',
         'yellowPostit':'#FCCE14',
         'bluePostit':'#77E5D7',
@@ -34,7 +35,7 @@ export default {
       },
       //change the scale to 115% when hover
       scale: {
-        '110': '1.10',
+        '110': '1.05',
       },
       
     },

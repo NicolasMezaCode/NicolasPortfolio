@@ -38,5 +38,21 @@
   .container:hover .border {
     transform: translateY(4px) rotate(-5deg);
   }
+  .containerSecond {
+    max-width: 800px;
+    font-size: 17px;
+    line-height: 28px;
+    transition: all 0.13s ease-in;
+  }
+  
+  .containerSecond:hover {
+    transform: translateY(-14px) rotate(1deg);
+    scale: 1.02;
+  }
+  
+  .containerSecond:hover .border {
+    transform: translateY(6px) rotate(-7deg);
+    scale: 1.02;
+  }
 }
 

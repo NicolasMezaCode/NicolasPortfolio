@@ -4,6 +4,7 @@ import './main.css'
 import About from './About'
 import Education from './Education'
 import Title from "./Title"
+import BlogPart from './BlogPart'
 
 
 export default function Main() {
@@ -18,6 +19,7 @@ export default function Main() {
         <Projects/>
         <About/>
         <Education/>
+        <BlogPart/>
         </section>      
       </div>
     </>

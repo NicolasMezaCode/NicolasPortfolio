@@ -51,3 +51,19 @@
       transform: translateX(100%);
     }
   }
+
+  @keyframes rainbow-animation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+
+  .rainbow{
+    background: linear-gradient(45deg, rgba(255, 0, 0, 0.3), rgba(255, 165, 0, 0.3), rgba(255, 255, 0, 0.3), rgba(0, 128, 0, 0.3), rgba(0, 0, 255, 0.3), rgba(75, 0, 130, 0.3), rgba(238, 130, 238, 0.3));
+    background-size: 600% 100%;
+    animation: rainbow-animation 10s ease infinite;
+    color: black;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+  }
