@@ -10,12 +10,12 @@ export default function Footer() {
         <a href="https://www.instagram.com/nicom.g1/" className= "opacity-80 text-white hover:opacity-100 transition-opacity">
                 <Instagram className="h-auto w-6 sm:w-6 text-white" fill="white" />
         </a>
-        <a href="https://github.com/NicolasMezaCode" className="opacity-80 text-white hover:opacity-100 transition-opacity">
+        <a href="https://www.linkedin.com/in/nicolas-meza-169378201/" className="opacity-80 text-white hover:opacity-100 transition-opacity">
             <span>
                 <Linkedin className="h-auto w-6 sm:w-6" fill="white" />
             </span>
         </a>
-        <a href="https://www.linkedin.com/in/nicolas-meza-169378201/" className="opacity-80 hover:opacity-100 transition-opacity">
+        <a href="https://github.com/NicolasMezaCode" className="opacity-80 hover:opacity-100 transition-opacity">
             <span>
                 <Github className="h-auto w-6 sm:w-6" fill="white" />
             </span>
