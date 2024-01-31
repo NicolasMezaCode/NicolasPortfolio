@@ -1,5 +1,5 @@
 import React from 'react'
-import image1 from '../assets/images/DALL·E 2023-05-26 11.39.09 - old dj  equipment and vintage music stuff (1).png'
+import image1 from '../assets/images/DALL·E 2023-05-26 11.39.09 - old dj  equipment and vintage music stuff (1).webp'
 import { Link } from 'react-router-dom';
 import  articles  from './articles';
 import './main.css'

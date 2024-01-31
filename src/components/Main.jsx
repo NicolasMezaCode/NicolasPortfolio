@@ -11,15 +11,19 @@ export default function Main() {
   return (
     <>
       <Title/>
-      <div className=" bg-blend-darken bg-[url('./assets/mobile.png')]  md:bg-[url('./assets/desktop.png')] flex justify-center flex-col  items-center">
-        <div className='bg-black opacity-90 rounded-lg mt-6 mb-6'>
+      <div className="relative flex justify-center flex-col items-center">
+        <div className="absolute inset-0 z-0 pattern-cross pattern-gray-700 pattern-bg-white pattern-size-6 pattern-opacity-40"></div>
+        <div className='bg-black opacity-90 rounded-lg mt-6 mb-6 z-20'>
             <h3 className='font-bold text-2xl text-white p-3 tracking-wide'>Projects</h3>
         </div>
         <section className='w-fit flex flex-col justify-center items-center'>
         <Projects/>
         <About/>
         <Education/>
-        <BlogPart/>
+        <div className='z-20'>
+          <BlogPart/>
+        </div>
+     
         </section>      
       </div>
     </>

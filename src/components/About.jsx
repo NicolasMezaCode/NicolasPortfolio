@@ -1,5 +1,5 @@
 import React from 'react'
-import photo from '../assets/final_Original (2) (1).jpg'
+import photo from '../assets/final_Original (2) (1).webp'
 import './about.css'
 export default function About() {
   return (

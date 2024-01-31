@@ -4,7 +4,6 @@ import Footer from "./shared/Footer"
 import Blog from "./components/Blog"
 import Musica from "./components/Blogposts/Musica"
 import{Route,Routes} from 'react-router-dom'
-import image from './assets/final_Original (2) (1).jpg'
 import ContactMe from "./components/Contact"
 function App() {
   return (

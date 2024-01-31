@@ -1,7 +1,7 @@
 import React from 'react'
-import music from '../../assets/images/DALL·E 2023-05-26 11.39.09 - old dj  equipment and vintage music stuff (1).png'
-import salsa from '../../assets/images/DALL·E 2023-05-26 11.50.53 - personas bailando salsa con el estilo de pintura de van gohg (1).png'
-import tiempo from '../../assets/images/DALL·E 2023-05-26 11.57.14 - viajar en el tiempo con musica (1).png'
+import music from '../../assets/images/DALL·E 2023-05-26 11.39.09 - old dj  equipment and vintage music stuff (1).webp'
+import salsa from '../../assets/images/DALL·E 2023-05-26 11.50.53 - personas bailando salsa con el estilo de pintura de van gohg (1).webp'
+import tiempo from '../../assets/images/DALL·E 2023-05-26 11.57.14 - viajar en el tiempo con musica (1).webp'
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 export default function Musica() {

@@ -9,7 +9,7 @@ export default function BlogPart() {
         </div>
         {articles.map((article) => (
           <Link to={`/${article.id}`} key={article.id}>
-            <div className="bg-white shadow-lg rounded-lg overflow-hidden containerSecond ">
+            <div className="bg-white shadow-lg rounded-lg overflow-hidden sketchy containerSecond ">
               <img
                 src={article.image}
                 alt={article.title}
