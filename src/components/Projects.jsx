@@ -7,7 +7,7 @@ import{ReactComponent as Node} from '../assets/icons/node.svg'
 import{ReactComponent as Data} from '../assets/icons/database-solid.svg'
 import gamess from '../assets/Gamess.png'
 import pomodoro from '../assets/pomotimer.png'
-import textren from '../assets/textren.png'
+import textren from '../assets/TEXTREN.png'
 export default function Projects() {
   return (
     <>
