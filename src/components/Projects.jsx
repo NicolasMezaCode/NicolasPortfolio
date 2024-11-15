@@ -7,9 +7,32 @@ import{ReactComponent as Node} from '../assets/icons/node.svg'
 import{ReactComponent as Data} from '../assets/icons/database-solid.svg'
 import gamess from '../assets/Gamess.png'
 import pomodoro from '../assets/pomotimer.png'
+import textren from '../assets/textren.png'
 export default function Projects() {
   return (
     <>
+    <div id='projects' className='bg-white sm:mt-9  mt-3 mb-9 sm:mb-9 rounded-lg sketchy'>
+                <h3 className=' font-hand font-bold text-3xl sm:text-5xl px-4 py-2  text-black sm:px-6 sm:py-3'>TEXTREN WEB PAGE</h3>
+          </div>
+                <a href="https://www.textren.com.ec/">
+          <figure className='w-fit mx-5 mb-7 rounded-lg container sketchy relative'>
+            <div className="relative">
+                
+              <img className='h-auto w-80 sm:w-[600px] lg:w-[800px]' src={textren} alt="screenshot of the project" />
+              <div className="absolute inset-0 flex items-center flex-col justify-center bg-red-400 opacity-0 hover:opacity-100 transition duration-300 ease-in-out">
+                <div className="text-black text-center m-3 sm:m-5">
+                  <h3 className="text-xs sm:text-2xl font-semibold sm:mb-2">Created a user-friendly website to enhance the online presence of a textile company.  Leveraged HTML, Tailwind CSS, and JavaScript to deliver a visually appealing and functional platform, including a contact form for improved customer engagement.</h3>                  
+                </div>
+                <span className='flex gap-3'>
+                  <HtmlLogo className="h-auto w-6 sm:w-12 text-black" />
+                  <CssLogo className="h-auto w-6 sm:w-12 text-black" />
+                  <JsLogo className="h-auto w-6 sm:w-12 text-black" />
+                  <Data className="h-auto w-6 sm:w-12 text-black" />
+                </span>
+              </div>
+            </div>
+          </figure>
+          </a>
           <div id='projects' className='bg-white sm:mt-9  mt-3 mb-9 sm:mb-9 rounded-lg sketchy'>
                 <h3 className=' font-hand font-bold text-3xl sm:text-5xl px-4 py-2  text-black sm:px-6 sm:py-3'>GAMESS</h3>
           </div>
