@@ -21,7 +21,7 @@ export default function Projects() {
               <img className='h-auto w-80 sm:w-[600px] lg:w-[800px]' src={textren} alt="screenshot of the project" />
               <div className="absolute inset-0 flex items-center flex-col justify-center bg-red-400 opacity-0 hover:opacity-100 transition duration-300 ease-in-out">
                 <div className="text-black text-center m-3 sm:m-5">
-                  <h3 className="text-xs sm:text-2xl font-semibold sm:mb-2">Created a user-friendly website to enhance the online presence of a textile company.  Leveraged HTML, Tailwind CSS, and JavaScript to deliver a visually appealing and functional platform, including a contact form for improved customer engagement.</h3>                  
+                  <h3 className="text-xs sm:text-2xl font-semibold sm:mb-2">Created a website to enhance the online presence of a textile company.Using HTML, Tailwind CSS, and JavaScript to deliver a functional platform, including a contact form for customer engagement.</h3>                  
                 </div>
                 <span className='flex gap-3'>
                   <HtmlLogo className="h-auto w-6 sm:w-12 text-black" />
